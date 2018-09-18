@@ -1,0 +1,55 @@
+
+JAVA_HOME
+D:\ProgramFiles\Java\jdk1.8.0_181
+
+CLASSPATH   D:\ProgramFiles\Java\jdk1.8.0_181\jre\lib\rt.jar;
+%JAVA_HOME%\jre\lib\rt.jar;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
+
+PATH        D:\ProgramFiles\Java\jdk1.8.0_181\bin;
+%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
+
+----------------------------------------------------------------------
+MYSQL_HOME
+D:/ProgramFiles/MySQL/mysql-commercial-8.0.12-winx64
+
+RUBY_HOME   (Ruby 2.5.1-2)
+D:\ProgramFiles\Ruby\Ruby-2.5.1-2-x64
+ruby --version
+
+PATH        (echo %PATH%)
+%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MYSQL_HOME%\bin;%RUBY_HOME%\bin;
+----------------------------------------------------------------------
+
+ORACLE_HOME
+E:\Oracle\app\product\11.2.0\dbhome_1
+
+NLS_LANG
+SIMPLIFIED CHINESE_CHINA.ZHS16GBK
+
+                                        2017-10-27 22:32:22
+
+Gradle (https://gradle.org/releases/)
+GRADLE_HOME=%USERPROFILE%\.gradle\gradle-4.9
+GRADLE_USER_HOME=%USERPROFILE%\.gradle\repository
+
+										2018-06-13 11:19:42
+
+Red Hat Enterprise Linux 7.5 Java PATH
+/etc/profile
+JAVA_HOME=/opt/Java/jdk1.8.0_181
+IDEA_JDK=/opt/Java/jdk1.8.0_181
+CLASSPATH=$JAVA_HOME/lib/
+PATH=$PATH:$JAVA_HOME/bin
+export PATH JAVA_HOME CLASSPATH
+                                        2018-06-24 20:33
+
+Golang 1.10.3
+GOROOT=D:\ProgramFiles\Golang\go
+GOPATH=D:\ProgramFiles\Golang\gopath
+PATH=;%GOROOT%\bin;
+
+https://studygolang.com/dl/golang/go1.10.3.windows-amd64.zip
+
+                                        2018-08-11 21:30
+
+

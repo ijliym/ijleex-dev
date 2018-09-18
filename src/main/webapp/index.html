@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>//www.zoakerc.com/</title>
+    <style type="text/css">
+        a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        body {
+            margin: 0 auto;
+            padding: 20px;
+            max-width: 60pc;
+            background-color: #fff;
+            color: #333;
+            font-size: 14px;
+            font-family: Helvetica, arial, freesans, clean, sans-serif;
+            line-height: 1.6;
+        }
+
+        body > :first-child {
+            margin-top: 0 !important;
+        }
+
+        body > :last-child {
+            margin-bottom: 0 !important;
+        }
+
+        blockquote, dl, ol, p, pre, table, ul {
+            margin: 15px 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin: 20px 0 10px;
+            padding: 0;
+            font-weight: 700;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1 code, h1 tt, h2 code, h2 tt, h3 code, h3 tt, h4 code, h4 tt, h5 code, h5 tt, h6 code, h6 tt {
+            font-size: inherit;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        h1, h2 {
+            color: #000;
+        }
+
+        h2 {
+            border-bottom: 1px solid #ccc;
+            font-size: 24px;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        h4 {
+            font-size: 1pc;
+        }
+
+        h5, h6 {
+            font-size: 14px;
+        }
+
+        h6 {
+            color: #777;
+        }
+
+        a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6, body > h1:first-child, body > h1:first-child + h2, body > h2:first-child, body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+        h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p {
+            margin-top: 10px;
+        }
+
+        a {
+            color: #4183c4;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ol, ul {
+            padding-left: 30px;
+        }
+
+        ol li ol:first-of-type, ol li ul:first-of-type, ol li > :first-child, ul li ol:first-of-type, ul li ul:first-of-type, ul li > :first-child {
+            margin-top: 0;
+        }
+
+        ol ol, ol ul, ul ol, ul ul {
+            margin-bottom: 0;
+        }
+
+        dl, dl dt {
+            padding: 0;
+        }
+
+        dl dt {
+            margin: 15px 0 5px;
+            font-weight: 700;
+            font-style: italic;
+            font-size: 14px;
+        }
+
+        dl dt:first-child {
+            padding: 0;
+        }
+
+        dl dt > :first-child {
+            margin-top: 0;
+        }
+
+        dl dt > :last-child {
+            margin-bottom: 0;
+        }
+
+        dl dd {
+            margin: 0 0 15px;
+            padding: 0 15px;
+        }
+
+        dl dd > :first-child {
+            margin-top: 0;
+        }
+
+        dl dd > :last-child {
+            margin-bottom: 0;
+        }
+
+        code, pre, tt {
+            font-size: 9pt;
+            font-family: Consolas, Liberation Mono, Courier, monospace;
+        }
+
+        code, tt {
+            border: 1px solid #eaeaea;
+            border-radius: 3px;
+            background-color: #f8f8f8;
+            white-space: nowrap;
+        }
+
+        code, pre > code, tt {
+            margin: 0;
+            padding: 0;
+        }
+
+        pre > code {
+            border: none;
+            background: 0 0;
+            white-space: pre;
+        }
+
+        pre {
+            overflow: auto;
+            padding: 6px 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            background-color: #f8f8f8;
+            font-size: 13px;
+            line-height: 19px;
+        }
+
+        pre code, pre tt {
+            border: none;
+            background-color: transparent;
+        }
+
+        kbd {
+            padding: 1px 4px;
+            border: none;
+            border-color: #ddd #ccc #ccc #ddd;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 2px 2px 2px 2px;
+            border-image: none;
+            background-color: #ddd;
+            background-image: linear-gradient(#f1f1f1, #ddd);
+            background-repeat: repeat-x;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            line-height: 10px;
+        }
+
+        blockquote {
+            padding: 0 15px;
+            border-left: 4px solid #ddd;
+            color: #777;
+        }
+
+        blockquote > :first-child {
+            margin-top: 0;
+        }
+
+        blockquote > :last-child {
+            margin-bottom: 0;
+        }
+
+        hr {
+            clear: both;
+            overflow: hidden;
+            margin: 15px 0;
+            padding: 0;
+            height: 0;
+            border: none;
+            border-bottom: 4px solid #ddd;
+            background: 0 0;
+        }
+
+        table th {
+            font-weight: 700;
+        }
+
+        table td, table th {
+            padding: 6px 13px;
+            border: 1px solid #ccc;
+        }
+
+        table tr {
+            border-top: 1px solid #ccc;
+            background-color: #fff;
+        }
+
+        table tr:nth-child(2n) {
+            background-color: #f8f8f8;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    </style>
+    <style type="text/css">
+        .highlight {
+            background: #fff;
+        }
+
+        .highlight .c {
+            color: #998;
+            font-style: italic;
+        }
+
+        .highlight .err {
+            background-color: #e3d2d2;
+            color: #a61717;
+        }
+
+        .highlight .k, .highlight .o {
+            font-weight: 700;
+        }
+
+        .highlight .cm {
+            color: #998;
+            font-style: italic;
+        }
+
+        .highlight .cp {
+            color: #999;
+            font-weight: 700;
+        }
+
+        .highlight .c1 {
+            color: #998;
+            font-style: italic;
+        }
+
+        .highlight .cs {
+            color: #999;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        .highlight .gd {
+            background-color: #fdd;
+            color: #000;
+        }
+
+        .highlight .gd .x {
+            background-color: #faa;
+            color: #000;
+        }
+
+        .highlight .ge {
+            font-style: italic;
+        }
+
+        .highlight .gr {
+            color: #a00;
+        }
+
+        .highlight .gh {
+            color: #999;
+        }
+
+        .highlight .gi {
+            background-color: #dfd;
+            color: #000;
+        }
+
+        .highlight .gi .x {
+            background-color: #afa;
+            color: #000;
+        }
+
+        .highlight .go {
+            color: #888;
+        }
+
+        .highlight .gp {
+            color: #555;
+        }
+
+        .highlight .gs {
+            font-weight: 700;
+        }
+
+        .highlight .gu {
+            color: #aaa;
+        }
+
+        .highlight .gt {
+            color: #a00;
+        }
+
+        .highlight .kc, .highlight .kd, .highlight .kp, .highlight .kr, .highlight .kt {
+            font-weight: 700;
+        }
+
+        .highlight .kt {
+            color: #458;
+        }
+
+        .highlight .m {
+            color: #099;
+        }
+
+        .highlight .s {
+            color: #d14;
+        }
+
+        .highlight .na {
+            color: teal;
+        }
+
+        .highlight .nb {
+            color: #0086b3;
+        }
+
+        .highlight .nc {
+            color: #458;
+            font-weight: 700;
+        }
+
+        .highlight .no {
+            color: teal;
+        }
+
+        .highlight .ni {
+            color: purple;
+        }
+
+        .highlight .ne, .highlight .nf {
+            color: #900;
+            font-weight: 700;
+        }
+
+        .highlight .nn {
+            color: #555;
+        }
+
+        .highlight .nt {
+            color: navy;
+        }
+
+        .highlight .nv {
+            color: teal;
+        }
+
+        .highlight .ow {
+            font-weight: 700;
+        }
+
+        .highlight .w {
+            color: #bbb;
+        }
+
+        .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo {
+            color: #099;
+        }
+
+        .highlight .s2, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx {
+            color: #d14;
+        }
+
+        .highlight .sr {
+            color: #009926;
+        }
+
+        .highlight .s1 {
+            color: #d14;
+        }
+
+        .highlight .ss {
+            color: #990073;
+        }
+
+        .highlight .bp {
+            color: #999;
+        }
+
+        .highlight .vc, .highlight .vg, .highlight .vi {
+            color: teal;
+        }
+
+        .highlight .il {
+            color: #099;
+        }
+
+        .pl-c {
+            color: #969896;
+        }
+
+        .pl-c1, .pl-mdh, .pl-mm, .pl-mp, .pl-mr, .pl-s1 .pl-v, .pl-s3, .pl-sc, .pl-sv {
+            color: #0086b3;
+        }
+
+        .pl-e, .pl-en {
+            color: #795da3;
+        }
+
+        .pl-s1 .pl-s2, .pl-smi, .pl-smp, .pl-stj, .pl-vo, .pl-vpf {
+            color: #333;
+        }
+
+        .pl-ent {
+            color: #63a35c;
+        }
+
+        .pl-k, .pl-s, .pl-st {
+            color: #a71d5d;
+        }
+
+        .pl-pds, .pl-s1, .pl-s1 .pl-pse .pl-s2, .pl-sr, .pl-sr .pl-cce, .pl-sr .pl-sra, .pl-sr .pl-sre, .pl-src, .pl-v {
+            color: #df5000;
+        }
+
+        .pl-id {
+            color: #b52a1d;
+        }
+
+        .pl-ii {
+            background-color: #b52a1d;
+            color: #f8f8f8;
+        }
+
+        .pl-sr .pl-cce {
+            color: #63a35c;
+            font-weight: 700;
+        }
+
+        .pl-ml {
+            color: #693a17;
+        }
+
+        .pl-mh, .pl-mh .pl-en, .pl-ms {
+            color: #1d3e81;
+            font-weight: 700;
+        }
+
+        .pl-mq {
+            color: teal;
+        }
+
+        .pl-mi {
+            color: #333;
+            font-style: italic;
+        }
+
+        .pl-mb {
+            color: #333;
+            font-weight: 700;
+        }
+
+        .pl-md, .pl-mdhf {
+            background-color: #ffecec;
+            color: #bd2c00;
+        }
+
+        .pl-mdht, .pl-mi1 {
+            background-color: #eaffea;
+            color: #55a532;
+        }
+
+        .pl-mdr {
+            color: #795da3;
+            font-weight: 700;
+        }
+
+        .pl-mo {
+            color: #1d3e81;
+        }
+
+        .task-list {
+            margin-bottom: 0;
+            padding-left: 10px;
+        }
+
+        .task-list li {
+            margin-left: 20px;
+        }
+
+        .task-list-item {
+            padding-left: 10px;
+            list-style-type: none;
+        }
+
+        .task-list-item label {
+            font-weight: 400;
+        }
+
+        .task-list-item.enabled label {
+            cursor: pointer;
+        }
+
+        .task-list-item + .task-list-item {
+            margin-top: 3px;
+        }
+
+        .task-list-item-checkbox {
+            display: inline-block;
+            margin-right: 3px;
+            margin-left: -20px;
+            vertical-align: 1px;
+        }
+    </style>
+</head>
+<body>
+<h3>开始游戏：<code>Space</code></h3>
+<h3>向上跳跃：<code>↑</code></h3>
+<h3>低头前进：<code>↓</code></h3>
+<div id="container"></div>
+<script type="text/javascript" src="assets/runner.js"></script>
+<script type="text/javascript">
+    initRunner("#container");
+</script>
+</body>
+</html>

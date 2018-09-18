@@ -1,0 +1,24 @@
+IDE: IdeaIU-172.3317.53
+
+Chinese input method dose not working
+
+After I upgrade IDEA(IU-171.4694.70) to IdeaIU-172.3317.53, When I input, it does't display the entry.
+
+OS: Windows 7
+IME: Jidian Wubi Input Method （极点五笔输入法） or Google Pinyin Simplified
+IDE: IdeaIU-172.3317.53
+
+------------------------------------------------------------
+IntelliJ IDEA 2017.2
+Build #IU-172.3317.53, built on July 12, 2017
+Licensed to ijymLee
+
+JRE: 1.8.0_152-release-915-b5 amd64
+JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o
+Windows 7 6.1
+------------------------------------------------------------
+
+                            2017-07-17 20:27:04
+
+https://youtrack.jetbrains.com/issues?q=Chinese%20input%20method
+https://youtrack.jetbrains.com/issue/IDEA-175983

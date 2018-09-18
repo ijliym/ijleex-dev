@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="org.springframework" pattern="lib:org.springframework..*" />
+</component>

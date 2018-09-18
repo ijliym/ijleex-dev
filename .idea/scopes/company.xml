@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="company" pattern="src:com.hjb..*||test:com.hjb..*" />
+</component>

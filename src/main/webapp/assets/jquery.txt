@@ -1,0 +1,13 @@
+https://code.jquery.com/jquery/
+
+//code.jquery.com/jquery-2.2.4.min.js
+//cdn.bootcss.com/jquery/2.2.4/jquery.min.js
+//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js
+
+//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js
+
+http://youmightnotneedjquery.com
+https://github.com/HubSpot/youmightnotneedjquery.git
+
+
+

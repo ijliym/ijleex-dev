@@ -1,0 +1,36 @@
+IDEA 设置 字符集编码为 UTF-8
+
+Tomcat 编码
+Tomcat 配置界面 添加虚拟机参数：-Dfile.encoding=UTF-8（VM options）
+这样，Charset.defaultCharset().name() 的值为 UTF-8
+
+Tomcat 参数
+JDK 7.0
+-Dfile.encoding=UTF-8 -Xms512m -Xmx2048m -XX:PermSize=512m -XX:MaxPermSize=512m
+JDK 8.0
+-Dfile.encoding=UTF-8 -Xms512m -Xmx2048m -XX:MaxMetaspaceSize=64m
+
+参数的含义：
+-Xms512m                JVM初始分配的堆内存
+-Xmx2048m               JVM最大允许分配的堆内存，按需分配
+-XX:PermSize=512m       JVM初始分配的非堆内存
+-XX:MaxPermSize=512m    JVM最大允许分配的非堆内存，按需分配
+-XX:MaxMetaspaceSize=128m   JDK8 移除 PermSize 和 MaxPermSize，改用 Metaspace 内存分配模型
+                            新参数（MaxMetaspaceSize）用于限制本地内存分配给类元数据的大小。
+                            如果没有指定这个参数，元空间会在运行时根据需要动态调整。
+
+
+-- ------------------------------------------------------------
+
+IDEA 编码
+IDEA安装目录下的bin文件夹，打开 idea.exe.vmoptions 或 idea64.exe.vmoptions 文件
+添加一条配置信息：-Dfile.encoding=UTF-8
+这样，IDEA 的控制台中输出的汉字才不会显示为乱码。
+
+不设置成 UTF-8，可能出现其他难以预测的问题。
+例如，IDEA 中使用 String.getBytes() 处理过的信息可能与其他平台的处理结果不一样。
+
+							李远明
+							2017-08-21 15:59:10
+
+

@@ -1,0 +1,15 @@
+// Class types & methods comments:
+/** 标题
+ *
+ * @author ijymLee
+ * @since ${DATE} ${TIME} 新建
+ */
+
+// Override methods comments:
+/** {@inheritDoc}
+ *
+ * @author ijymLee
+ * @since ${DATE} ${TIME} 实现
+ */
+
+vim:ft=java
