@@ -25,4 +25,4 @@
  * @author liym
  * @since 2018-09-18 10:22 新建
  */
-package me.ijleex.test.jrebel;
+package me.ijleex.test.jrebel.activation;
